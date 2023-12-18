@@ -1,0 +1,7 @@
+a = int(input())
+for i in range(a):
+    X,Y = map(int,input().split())
+    if X >= Y:
+        print("MMM BRAINS")
+    else:
+        print("NO BRAINS")
