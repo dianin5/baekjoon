@@ -1,3 +1,2 @@
-a = int(input())
-for i in range(a):
-    print(i+1)
+a = input()
+print(int(a,16))
