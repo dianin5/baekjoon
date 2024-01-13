@@ -1,6 +1,3 @@
 N= int(input())
-j=0
-for i in range(N*2):
-    if i%2==1:
-        print(str(" "*(j))+str("*"*(2*N-(i)))) 
-        j+=1
+for i in range(N):
+    print(str(" "*(i))+str("*"*(2*N-(2*i+1)))) 
