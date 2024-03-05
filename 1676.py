@@ -12,4 +12,4 @@ for i in ans:
         count+=1
     else:
         break
-print(count)
+print(count) 
