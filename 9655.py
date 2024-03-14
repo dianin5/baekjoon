@@ -1,5 +1,8 @@
 N = int(input())
-if N%2 ==0:
-    print("CY")
-else:
-    print("SK")
+ans =[]
+for i in range(1,N+1):
+    if i %2 ==0:
+        ans.append("CY")
+    else:
+        ans.append("SK")
+print(ans[-1])
