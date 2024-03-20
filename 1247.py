@@ -1,4 +1,3 @@
-
 for i in range(3):
     ans=[]
     T=int(input())
